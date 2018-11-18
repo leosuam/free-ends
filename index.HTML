@@ -1,0 +1,73 @@
+<html>
+<head>
+    <title>Lojas Free</title>
+    <meta charset="utf-8"/>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="unslider.css">
+	<link rel="stylesheet" type="text/css" href="unslider-dots.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script> 
+	<script type="text/javascript" src="unslider-min.js"></script>
+	<script> 
+		jQuery(document).ready(function($) { 
+			$('.gallery').unslider({
+				animation: 'fade',
+				autoplay: true,
+				delay:3500,
+				infinite: true,
+				arrows: false
+			}); 
+		}); 
+	</script>
+</head>
+
+<body>
+
+    <header>
+      <h1 class="page-title"><a href="Albuns/free ends.png"><img src="Albuns/free ends.png" width="159" height="130" class="thumbnail"/></a></h1>
+	  
+      
+</header>
+	<nav id="main-menu">
+      <ul>
+        <li><a href="#"><b>Colecionáveis</b></a></li>
+        <li><a href="Casa.HTML">Casa</a></li>
+        <li><a href="Roupas.HTML">Roupas</a></li>
+        <li><a href="Acessorios.HTML">Acessórios</a></li>
+      </ul>
+      <div class="contact-btn"><a href="contato.HTML">Contato</a>
+      </div>
+    </nav>
+<box id="popup" class="popup" onclick="javascript:closePopup()"><img src="Albuns/promoção.jpg"width="500" height="310" ><img src="Albuns/close.png"></box>
+    <div class="gallery">
+		<ul>
+			<li>				
+			  <figure class="gallery-item">
+					<img class="thumbnail" src="Albuns\Produtos\Camisas\camiseta-raglan-liga-da-justica-geek-nerd-camiseta-masculina.jpg"/>
+				</figure>
+			</li>	
+			<li>
+				<figure class="gallery-item">
+					<img class="thumbnail" src="Albuns\Produtos\Camisas\product-image-455381548_480x480.jpg"/>
+				</figure>
+			</li>	
+			<li>
+				<figure class="gallery-item">
+					<img class="thumbnail" src="Albuns\Produtos\Canecas\cd1c745ea9.jpg"/>
+				</figure>
+			</li>
+			<li>
+			  <pre><figure class="gallery-item"><img class="thumbnail" src="Albuns\Produtos\Cartaz\steampugperfected2.jpg">
+				</figure>
+		      </pre>
+		  </li>			 
+		</ul>
+    </div>
+    <footer class="rodape">	
+		<p> 2018 - Leonardo Raymundo da Silva.
+		</p>
+	</footer>	
+  </body>
+
+  <script type="text/javascript"> function closePopup(){var element = document.getElementById("popup"); element.parentNode.removeChild(element);}</script>
+</html>

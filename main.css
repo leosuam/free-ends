@@ -1,0 +1,185 @@
+html, body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-weight: 300;
+  line-height: 0.5;
+}
+
+body {
+  font-family: 'Arial', sans-serif;  
+  background-image:url('Albuns/background.jpg');
+  background-position: center center;
+  color:#ffffff;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+   margin: 0;
+}
+
+.bg-orange { background-color: #CC9900; }
+.bg-blue { background-color: #105498; }
+.bg-green { background-color: green; }
+.bg-yellow { background-color: yellow; }
+
+h2 {
+    line-height: 0.5;
+}
+
+a {
+  color: #204156;
+  text-decoration: none;
+}
+
+.clear {
+  clear: both;
+}
+
+.page-title {
+  margin-left: 20px;
+  text-align: left;
+  font-weight: 900;
+}
+.page-subtitle {
+  text-align: center;
+  font-weight: 200;
+}
+
+.page-description {
+  border: 1px solid #ffffff;
+  margin: 2px;
+  text-align: center;
+  padding: 30px;
+}
+
+.title-Sobre{
+	text-align: CENTER;
+	font-weight: 800;
+	color:#ffffff;
+}
+
+.rodape{
+	text-align: center;
+	font-size: 12px;
+	positivon:fixed;
+	botton:0;
+	width:100%;
+  color:black; 
+}
+
+.gallery {
+  width: 80%;
+  height: 500px;
+  margin: 20px auto 0;
+}
+.gallery-Sobre {
+	margin: 20px;
+	height: 100%;
+	text-align: center;
+	padding-top: 0;
+	padding-right: 10px;
+	padding-bottom: 0;
+	padding-left: 10px;
+ 
+}
+.gallery-Sobre .thumbnail {
+	width: auto;
+	height: 95%;
+	border: 5px solid #fff;
+	white-space: pre;
+}
+.gallery  ul { height: 100%; }
+.gallery  ul  li { height: 100%; }
+
+.gallery-item {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  text-align: center;
+}
+.gallery-item .thumbnail {
+  width: auto;
+  height: 95%;
+  border: 5px solid #fff;
+}
+
+/* FOOTER NAVIGATION */
+
+nav#main-menu {
+  background-color: #D8D8D8;
+}
+
+nav#main-menu li {
+  display: inline;
+  margin: 0;
+  padding: 0 10px;
+}
+
+nav#main-menu ul {
+  display: inline;
+}
+
+nav#main-menu a {
+  height: 60px;
+  line-height: 60px;
+  color: #204156;
+  text-decoration: none;
+}
+
+.contact-btn {
+	float: right;
+	margin-left: 10px;
+	padding-left: 10px;
+}
+
+.contact-btn a {
+  position:relative;
+  cursor: pointer;
+  margin-right: 30px;
+  padding: 8px 18px;
+  border: 1px solid #204156;
+
+}
+
+.contact-btn a:active {
+  top:2px;
+
+}
+
+.gallery-services ul{
+  position: relative;
+  list-style: none;
+  margin-bottom: 20px;
+}
+.gallery-services ul li{
+  float:left; 
+  width: 20%; 
+  padding: 10px;
+  height: 300px; 
+  margin: 0 2.5%;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+.gallery-services ul li.clear{
+  width: 0;
+  height: 0;
+  float: none;
+  display: block;
+}
+
+.popup{
+  position: fixed;
+  top: 0; bottom: 0;
+  left: 0; right: 0;
+  margin: auto;
+  width: 500px;
+  height: 310px;
+  border: solid 2px #4c4d4f;
+  z-index: 20;
+
+}
+
+
